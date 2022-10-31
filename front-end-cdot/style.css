@@ -1,0 +1,77 @@
+#top_bar {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 75px;
+    background-color: #f35c4e;
+}
+#month_journal{
+    position: relative;
+    left: 50%;
+    top: 260px;
+    transform: translate(-50%, 0%);
+    width : 30%;
+    height: 400px;
+    border-color: #5beb9c;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5%;
+    background-color:white;
+}
+.important_text{
+    position: relative;
+    top : -300px;
+    /*left: 50%;*/
+    text-align: center;
+    font-size:450%;
+    font-family: "Alkalami", serif;
+}
+.top_bar_text{
+    position : absolute;
+    top : 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-size:225%;
+    font-weight: bold;
+    color: white;
+    background-color: #f35c4e;
+    border : none;
+}
+.top_bar_text:hover{
+    color: rgb(192, 192, 192);
+    cursor:pointer;
+}
+/*.sections{
+    width : 130px;
+    height : 1000px;
+}*/
+.sections-content {
+    display: none;
+    font-size: 50%;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    padding: 1px 16px;
+    z-index: 1;
+}
+.sections:hover .sections-content{
+    display: block;
+}
+.articles{
+    position: relative;
+    top: 260px;
+    width : 30%;
+    height: 400px;
+    border-color: #5beb9c;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5%;
+    background-color:white;
+}
+#error{
+    position: relative;
+    text-align: center;
+    top : 350px;
+    font-size:1000%;
+    font-family: "Alkalami", serif;
+}
